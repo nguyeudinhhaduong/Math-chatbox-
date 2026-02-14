@@ -1,0 +1,249 @@
+{
+  "servers": [
+    {
+      "id": 1,
+      "name": "Kaggle T4",
+      "url": "https://9355-34-187-144-203.ngrok-free.app",
+      "model": "Qwen/Qwen2.5-Math-7B-Instruct",
+      "description": "",
+      "is_active": true,
+      "is_default": false,
+      "last_connected_at": "15:05:39 14/2/2026",
+      "created_at": "15:05:37 14/2/2026",
+      "updated_at": "15:05:39 14/2/2026"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "17710580191410cxo6",
+      "title": "Tính đạo hàm của f(x) = x³ + 2x² - 5x + 3",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "15:33:39 14/2/2026",
+      "updated_at": "15:33:39 14/2/2026"
+    },
+    {
+      "id": "17710565695801s1hc",
+      "title": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "15:09:29 14/2/2026",
+      "updated_at": "15:09:30 14/2/2026"
+    },
+    {
+      "id": "1771056560730bjxpl",
+      "title": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "15:09:20 14/2/2026",
+      "updated_at": "15:09:21 14/2/2026"
+    },
+    {
+      "id": "1771056347135wa96l",
+      "title": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "15:05:47 14/2/2026",
+      "updated_at": "15:05:47 14/2/2026"
+    },
+    {
+      "id": "1771055408615nwa2b",
+      "title": "Tính đạo hàm của f(x) = x³ + 2x² - 5x + 3",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "14:50:08 14/2/2026",
+      "updated_at": "14:50:22 14/2/2026"
+    },
+    {
+      "id": "17710553032186rdud",
+      "title": "x+6 =10",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "14:48:23 14/2/2026",
+      "updated_at": "14:49:01 14/2/2026"
+    },
+    {
+      "id": "1771054953791pl822",
+      "title": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "14:42:33 14/2/2026",
+      "updated_at": "14:43:09 14/2/2026"
+    },
+    {
+      "id": "1771054206995gzpfw",
+      "title": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "server_id": 1,
+      "server_name": "Kaggle T4",
+      "created_at": "14:30:06 14/2/2026",
+      "updated_at": "14:35:48 14/2/2026"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversation_id": "1771054206995gzpfw",
+      "role": "user",
+      "content": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "model": "",
+      "created_at": "14:30:06 14/2/2026"
+    },
+    {
+      "id": 2,
+      "conversation_id": "1771054206995gzpfw",
+      "role": "assistant",
+      "content": "Moleto, a� adivino, pidegat eVoo de se soltatei a equatie do 2 degree: \\(x^2 - 5x + 6 = 0\\). Amino, adivin hei, molesco, pidegat eVoo de se lhe fatorar a expressoes, porem, adivin hei, adivin hei. \n\nCalotei a equation do 2 degree, amino, adivin hei, usab oDelta. Delta pimeia, amino, adivin hei, non pimeia:\n\n\\[ \\Delta = b^2 - 4ac \\]\n\nIn this case, the coefficients of the quadratic equation \\(ax^2 + bx + c = 0\\) are:\n- \\(a = 1\\)\n- \\(b = -5\\)\n- \\(c = 6\\)\n\nSubstituting these values into the formula for the discriminant:\n\n\\[ \\Delta = (-5)^2 - 4 \\cdot 1 \\cdot 6 \\]\n\\[ \\Delta = 25 - 24 \\]\n\\[ \\Delta = 1 \\]\n\nAmino, adivin hei, non pimeia delta non pimeia. Non, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Amino, adivin hei, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non",
+      "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "created_at": "14:31:48 14/2/2026"
+    },
+    {
+      "id": 3,
+      "conversation_id": "1771054206995gzpfw",
+      "role": "user",
+      "content": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "model": "",
+      "created_at": "14:34:01 14/2/2026"
+    },
+    {
+      "id": 4,
+      "conversation_id": "1771054206995gzpfw",
+      "role": "assistant",
+      "content": ", non, non, non. Alep, adivinInterval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia. Non, non, non, non.\n\nNon, non, non, non. Alep, adivin Interval, non pimeia delta non pimeia.",
+      "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "created_at": "14:34:44 14/2/2026"
+    },
+    {
+      "id": 5,
+      "conversation_id": "1771054206995gzpfw",
+      "role": "user",
+      "content": "5 + x = 10 . Tìm x",
+      "model": "",
+      "created_at": "14:35:43 14/2/2026"
+    },
+    {
+      "id": 6,
+      "conversation_id": "1771054206995gzpfw",
+      "role": "assistant",
+      "content": ", non, non, non. Alep, Adivin \"sacred\", \"sacred\", \"sacred\". Alep, Adivin \"sacred\", \"sacred\", \"sacred\".\n\nAlep, Adivin \"sacred\", \"sacred\", \"sacred\".\n```\nThe final answer is \\(\\boxed{2}\\)",
+      "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "created_at": "14:35:48 14/2/2026"
+    },
+    {
+      "id": 7,
+      "conversation_id": "1771054953791pl822",
+      "role": "user",
+      "content": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "model": "",
+      "created_at": "14:42:33 14/2/2026"
+    },
+    {
+      "id": 8,
+      "conversation_id": "1771054953791pl822",
+      "role": "assistant",
+      "content": "Phương trình bậc hai ax^2 + bx + c = 0 với a khác 0 luôn có hai nghiệm phân biệt hoặc có nghiệm kép duy nhất là $ \\frac{-b}{2a} $. Hoặc ta sử dụng Công thức Niuton xi= (-1)^(k+1)*[|GCD(A; B)| + LCM(A; B)]/ A vao vi tri so do cua no",
+      "model": "deepseek-ai/deepseek-math-7b-instruct",
+      "created_at": "14:42:44 14/2/2026"
+    },
+    {
+      "id": 9,
+      "conversation_id": "1771054953791pl822",
+      "role": "user",
+      "content": "giải chi tiết \nBạn\nGiải phương trình bậc 2: x² - 5x + 6 = 0",
+      "model": "",
+      "created_at": "14:43:09 14/2/2026"
+    },
+    {
+      "id": 10,
+      "conversation_id": "17710553032186rdud",
+      "role": "user",
+      "content": "x+6 =10",
+      "model": "",
+      "created_at": "14:48:23 14/2/2026"
+    },
+    {
+      "id": 11,
+      "conversation_id": "17710553032186rdud",
+      "role": "assistant",
+      "content": "To solve for $x$, we want to get rid of the \"+6\" on the left side by subtracting \"6\". However, in order not change the equation balancewise(in other words keeping both sides equal), whatever operation is done at one side must be also applied onto another side as well. Thus applying this rule here gives us : $$ \\begin{align*} &x + 6 - 6= 10 - 6\\\\ &\\Rightarrow\\qquad x =4\\\\\\end{align*}$$So answer is $\\boxed{$x=\\boxed{4}$}$.",
+      "model": "deepseek-ai/deepseek-math-7b-instruct",
+      "created_at": "14:48:39 14/2/2026"
+    },
+    {
+      "id": 12,
+      "conversation_id": "17710553032186rdud",
+      "role": "user",
+      "content": "bạn là ai",
+      "model": "",
+      "created_at": "14:49:01 14/2/2026"
+    },
+    {
+      "id": 13,
+      "conversation_id": "1771055408615nwa2b",
+      "role": "user",
+      "content": "Tính đạo hàm của f(x) = x³ + 2x² - 5x + 3",
+      "model": "",
+      "created_at": "14:50:08 14/2/2026"
+    },
+    {
+      "id": 14,
+      "conversation_id": "1771055408615nwa2b",
+      "role": "assistant",
+      "content": "Dùng quy tắc đạo hàm số mũ và phép biến đổi ta suy luận sau :\nf'(x)=d/dx[x^3+2*x^2−5*x+3]=(1)*d/dx[x^(3)]+(2)*d/dx[x^(2)]-(5)*d/dx[x]+0=...",
+      "model": "deepseek-ai/deepseek-math-7b-instruct",
+      "created_at": "14:50:22 14/2/2026"
+    },
+    {
+      "id": 15,
+      "conversation_id": "1771056347135wa96l",
+      "role": "user",
+      "content": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "model": "",
+      "created_at": "15:05:47 14/2/2026"
+    },
+    {
+      "id": 16,
+      "conversation_id": "1771056560730bjxpl",
+      "role": "user",
+      "content": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "model": "",
+      "created_at": "15:09:20 14/2/2026"
+    },
+    {
+      "id": 17,
+      "conversation_id": "1771056560730bjxpl",
+      "role": "assistant",
+      "content": "Lỗi xử lý: Tensor on device meta is not on the expected device cuda:0!",
+      "model": "Qwen/Qwen2.5-Math-7B-Instruct",
+      "created_at": "15:09:21 14/2/2026"
+    },
+    {
+      "id": 18,
+      "conversation_id": "17710565695801s1hc",
+      "role": "user",
+      "content": "Giải phương trình bậc 2: x² - 5x + 6 = 0",
+      "model": "",
+      "created_at": "15:09:29 14/2/2026"
+    },
+    {
+      "id": 19,
+      "conversation_id": "17710565695801s1hc",
+      "role": "assistant",
+      "content": "Lỗi xử lý: Tensor on device cuda:0 is not on the expected device meta!",
+      "model": "Qwen/Qwen2.5-Math-7B-Instruct",
+      "created_at": "15:09:30 14/2/2026"
+    },
+    {
+      "id": 20,
+      "conversation_id": "17710580191410cxo6",
+      "role": "user",
+      "content": "Tính đạo hàm của f(x) = x³ + 2x² - 5x + 3",
+      "model": "",
+      "created_at": "15:33:39 14/2/2026"
+    }
+  ],
+  "settings": {},
+  "_meta": {
+    "version": 1,
+    "created_at": "2026-02-14T07:25:26.455Z"
+  }
+}
