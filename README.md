@@ -1,20 +1,34 @@
 # 🧮 Math AI Chatbox
 
-Ứng dụng chatbot toán học với giao diện đẹp, sử dụng AI model chạy trên Kaggle và phục vụ qua ngrok.
+> Ứng dụng chatbot toán học với giao diện đẹp, hỗ trợ render LaTeX, sử dụng AI model chạy trên Kaggle và phục vụ qua ngrok. Hỗ trợ 16 người dùng đồng thời với batch processing.
 
-## 📁 Cấu trúc dự án
+---
 
-```
-Chatbox Model/
-├── server.js              # Backend Node.js (chạy riêng trên máy)
-├── package.json           # Dependencies
-├── public/
-│   └── index.html         # Giao diện web chatbox
-├── data/
-│   └── database.json      # Database lưu servers, conversations, messages
-├── kaggle_server.ipynb    # Notebook chạy trên Kaggle (AI model server)
-└── README.md              # Hướng dẫn sử dụng
-```
+## 📸 Giao diện
+
+
+![Welcome Screen](screenshots/giaodien.png)
+
+### Trò chuyện với AI — Chat Interface
+
+---
+
+## ⚡ Tính năng chính
+
+| Tính năng                      | Mô tả                                    |
+| ------------------------------ | ---------------------------------------- |
+| 🖥️ **Backend Node.js riêng**   | Proxy, lưu trữ, quản lý server tách biệt |
+| 🔄 **Quản lý nhiều server**    | Lưu/chuyển đổi URL ngrok dễ dàng         |
+| 💾 **Lưu lịch sử vĩnh viễn**   | Database JSON trên máy local             |
+| 👥 **16 người dùng đồng thời** | Batch processing trên GPU                |
+| 📐 **Render toán học**         | KaTeX (LaTeX) + Markdown                 |
+| 🌙 **Dark theme**              | Giao diện tối, animation mượt            |
+| 📱 **Responsive**              | Hỗ trợ desktop & mobile                  |
+| 📊 **Thống kê realtime**       | Số user, batches, requests               |
+| 📤 **Xuất chat**               | Export cuộc trò chuyện ra Markdown       |
+| 🔁 **Auto-reconnect**          | Tự kết nối server mặc định               |
+
+---
 
 ## 🏗️ Kiến trúc hệ thống
 
@@ -29,6 +43,28 @@ Chatbox Model/
                     │ .json   │  ← Lưu servers, lịch sử chat
                     └─────────┘
 ```
+
+## 📁 Cấu trúc dự án
+
+```
+Chatbox Model/
+├── server.js              # Backend Node.js (chạy trên máy)
+├── package.json           # Dependencies
+├── public/
+│   └── index.html         # Giao diện web chatbox
+├── data/
+│   └── database.json      # Database (servers, conversations, messages)
+├── screenshots/           # Ảnh giao diện cho README
+│   ├── welcome.png
+│   ├── chat.png
+│   ├── math-render.png
+│   ├── server-manager.png
+│   └── mobile.png
+├── kaggle_server.ipynb    # Notebook AI server (chạy trên Kaggle)
+└── README.md
+```
+
+---
 
 ## 🚀 Hướng dẫn sử dụng
 
@@ -54,41 +90,31 @@ npm install          # Chỉ cần chạy lần đầu
 npm start            # Khởi động backend
 ```
 
-Server sẽ chạy tại `http://localhost:3000`
+Server chạy tại `http://localhost:3000`
 
-### Bước 3: Thêm và kết nối Server
+### Bước 3: Kết nối Server
 
 1. Mở `http://localhost:3000` trên trình duyệt
 2. Nhấn **"🖥️ Quản lý Server"** ở sidebar
 3. Nhập tên, URL ngrok, model → **"💾 Lưu Server"**
-4. Nhấn **"⚡ Kết nối"** trên server card
-5. Khi hiện ✅ → Bắt đầu chat!
+4. Nhấn **"⚡ Kết nối"** → Khi hiện ✅ → Bắt đầu chat!
 
-> 💡 **Lưu nhiều server**: Bạn có thể lưu nhiều URL ngrok khác nhau (VD: GPU T4, GPU P100, các model khác nhau) và chuyển đổi nhanh giữa chúng.
+> 💡 **Lưu nhiều server**: Bạn có thể lưu nhiều URL ngrok khác nhau và chuyển đổi nhanh giữa chúng.
+
+---
 
 ## 📋 Danh sách Model hỗ trợ
 
-| #   | Model                                   | Kích thước | Mô tả                       |
-| --- | --------------------------------------- | ---------- | --------------------------- |
-| 0   | `Qwen/Qwen2.5-Math-1.5B-Instruct`       | 1.5B       | Nhẹ, nhanh, phù hợp GPU yếu |
-| 1   | `Qwen/Qwen2.5-Math-7B-Instruct`         | 7B         | Tốt hơn, cần GPU mạnh       |
-| 2   | `microsoft/Phi-3-mini-4k-instruct`      | 3.8B       | Đa năng, không chỉ toán     |
-| 3   | `deepseek-ai/deepseek-math-7b-instruct` | 7B         | Chuyên toán, rất tốt        |
+| #   | Model                                   | Size | Mô tả                       |
+| --- | --------------------------------------- | ---- | --------------------------- |
+| 0   | `Qwen/Qwen2.5-Math-1.5B-Instruct`       | 1.5B | Nhẹ, nhanh, phù hợp GPU yếu |
+| 1   | `Qwen/Qwen2.5-Math-7B-Instruct`         | 7B   | Tốt hơn, cần GPU mạnh       |
+| 2   | `microsoft/Phi-3-mini-4k-instruct`      | 3.8B | Đa năng, không chỉ toán     |
+| 3   | `deepseek-ai/deepseek-math-7b-instruct` | 7B   | Chuyên toán, rất tốt        |
 
-## ⚡ Tính năng
+---
 
-- ✅ **Backend Node.js riêng** - proxy, lưu trữ, quản lý server
-- ✅ **Quản lý nhiều server** - lưu/chuyển đổi URL ngrok dễ dàng
-- ✅ **Lưu lịch sử vĩnh viễn** - database JSON trên máy
-- ✅ **16 người dùng đồng thời** với batch processing
-- ✅ **Batch inference** gom 16 request xử lý cùng lúc trên GPU
-- ✅ **Giao diện đẹp** dark theme, animation, responsive mobile
-- ✅ **Render toán học** KaTeX (LaTeX) + Markdown
-- ✅ **Xuất cuộc trò chuyện** ra file Markdown
-- ✅ **Thống kê realtime** số user, batches, requests
-- ✅ **Auto-reconnect** server mặc định khi khởi động
-
-## 🔧 Cách hoạt động
+## 🔧 Batch Processing — Cách hoạt động
 
 ```
 [User 1] ──┐
@@ -98,17 +124,24 @@ Server sẽ chạy tại `http://localhost:3000`
 [User 16]──┘
 ```
 
-1. Người dùng gửi câu hỏi qua web → API `/api/chat`
-2. Server nhận request, đưa vào **Request Queue**
+1. Người dùng gửi câu hỏi → Backend proxy → Kaggle `/api/chat`
+2. Kaggle server đưa request vào **Request Queue**
 3. **Batch Worker** gom tối đa 16 requests trong 0.5 giây
 4. Chạy **batch inference** trên GPU (xử lý song song)
 5. Trả kết quả về cho từng user
 
+---
+
 ## ⚠️ Lưu ý
 
-- Kaggle notebook có thời gian chạy giới hạn (12 giờ cho GPU)
-- URL ngrok thay đổi mỗi lần khởi động lại
-- Model 7B cần GPU T4 hoặc P100 trở lên
+- Kaggle notebook có thời gian chạy giới hạn (**12 giờ** cho GPU)
+- URL ngrok **thay đổi** mỗi lần khởi động lại notebook
+- Model 7B cần GPU **T4 hoặc P100** trở lên
 - Model 1.5B có thể chạy trên CPU nhưng chậm
-- Ngrok free giới hạn bandwidth, nên dùng cho testing
-"# Math-chatbox-" 
+- Ngrok free giới hạn bandwidth — nên dùng cho testing
+
+---
+
+## 📄 License
+
+MIT
